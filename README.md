@@ -20,7 +20,7 @@ Follow the instructions to install the SDK for [iOS](https://developer.zendesk.c
 
 ### Manual install
 #### iOS
-1. `npm install react-native-zendesk-chat --save`
+1. `npm install @zanechua/react-native-zendesk-chat --save`
 2. In Xcode, drag and drop `node_modules/react-native-zendesk-chat/RNZendeskChat.m` and `node_modules/react-native-zendesk-chat/RNZendeskChat.h` into your project.
 3. Configure `ZDCChat` in `AppDelegate.m`:
 

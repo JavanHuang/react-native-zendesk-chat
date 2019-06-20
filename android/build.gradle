@@ -3,13 +3,13 @@ def safeExtGet(prop, fallback) {
 }
 
 buildscript {
-  repositories {
-    jcenter()
-  }
+    repositories {
+        jcenter()
+    }
 
-  dependencies {
-    classpath 'com.android.tools.build:gradle:1.2.3'
-  }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
 }
 
 apply plugin: 'com.android.library'
@@ -27,11 +27,11 @@ android {
 }
 
 repositories {
-  mavenCentral()
-  maven { url 'https://zendesk.artifactoryonline.com/zendesk/repo' }
+    mavenCentral()
+    maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
 }
 
 dependencies {
-    compile "com.facebook.react:react-native:+"
-    compile group: 'com.zopim.android', name: 'sdk', version: '1.4.2'
+    implementation "com.facebook.react:react-native:+"
+    implementation group: 'com.zopim.android', name: 'sdk', version: '1.4.5'
 }
