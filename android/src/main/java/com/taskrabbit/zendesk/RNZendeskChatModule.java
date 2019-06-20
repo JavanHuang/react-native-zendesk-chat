@@ -57,7 +57,7 @@ public class RNZendeskChatModule extends ReactContextBaseJavaModule {
                 .message(PreChatForm.Field.REQUIRED)
                 .build();
 
-        ZopimChat.init(key);
+        ZopimChat.init(key)
                  .preChatForm(defaultPreChat)
                  .build();
     }
