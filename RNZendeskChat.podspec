@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.homepage     = package['homepage']
 
-  s.source       = { :git => "https://github.com/zanechua/react-native-zendesk-chat.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/zanechua/react-native-zendesk-chat.git" }
   s.source_files  = "ios/**/*.{h,m}"
   s.platform          = :ios, '9.0'
 

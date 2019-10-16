@@ -33,5 +33,5 @@ repositories {
 
 dependencies {
     implementation "com.facebook.react:react-native:+"
-    implementation group: 'com.zopim.android', name: 'sdk', version: '1.4.5'
+    implementation group: 'com.zopim.android', name: 'sdk', version: '1.4.7'
 }
